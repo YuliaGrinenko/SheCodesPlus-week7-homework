@@ -26,12 +26,13 @@
           <div>
             <h1 class="current-city" id="current-city">London</h1>
             <p class="current-details">
-              <span id="current-date"></span>, moderate rain <br />
-              Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
+              <span id="current-day-time"></span>, <span id="description"></span><br/>
+              Humidity:<span id="humidity"></span>,
+              Wind:<span id="wind-speed"></span>
             </p>
           </div>
           <div class="current-temperature">
-            <span class="current-temperature-icon">☀️</span
+            <span class="current-temperature-icon" id="icon"></span
             ><span
               id="current-temperature-value"
               class="current-temperature-value"
@@ -42,7 +43,7 @@
       </main>
         <p>
           This project was coded by
-          <a href="#https://github.com/YuliaGrinenko" target="_blank"
+          <a href="https://github.com/YuliaGrinenko" target="_blank"
             >Yulia Hrinenko</a
           >
           and is
