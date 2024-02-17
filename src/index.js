@@ -22,4 +22,6 @@ function searchCity(event) {
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", searchCity);
 
+searchApi("London");
+
 //"df336e1036o064a2a04903f20318tb6d";
