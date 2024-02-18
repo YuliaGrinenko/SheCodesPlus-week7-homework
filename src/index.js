@@ -8,6 +8,7 @@ function showWeather(response) {
   let timeElement = document.querySelector("#current-day-time");
   let date = new Date(response.data.time * 1000);
   let iconElement = document.querySelector("#icon");
+  console.log(date);
 
   cityElement.innerHTML = response.data.city;
   temperatureElement.innerHTML = Math.round(temperature);

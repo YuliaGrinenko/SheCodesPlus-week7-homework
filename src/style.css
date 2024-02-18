@@ -4,6 +4,7 @@ body {
     rgb(18, 35, 60) 0%,
     rgb(187, 187, 187) 90%
   );
+  font-family: "Montserrat", sans-serif;
 }
 a {
   color: #885df1;
@@ -32,17 +33,19 @@ header {
   padding: 20px;
   width: 75%;
   border-radius: 6px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .search-button {
   margin-left: 5px;
   font-size: 16px;
-  background-color: #a0a3a7;
+  background-color: #385b8a;
   color: white;
   border: none;
   padding: 20px;
   line-height: 1;
   border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
 }
 
 main {
