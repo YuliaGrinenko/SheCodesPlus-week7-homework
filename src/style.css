@@ -62,9 +62,10 @@ main {
 }
 
 .current-temperature-icon {
-  height: 100px;
-  width: 100px;
+  width: 120px;
+  height: 120px;
   margin-right: 50px;
+  margin-top: -15px;
 }
 
 .current-temperature-value {
